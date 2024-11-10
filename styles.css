@@ -73,7 +73,7 @@ h1 {
     border: 2px solid #333;
     border-radius: 10px;
     overflow: hidden;
-    background-image: url('tausta.avif');
+    background-image: url('tausta.png');
     background-size: cover;
     background-position: center;
     cursor: pointer;
