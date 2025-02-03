@@ -16,7 +16,7 @@ const audioFiles = {
     "kuva9.png": "kuva9.mp3",
     "kuva10.png": "kuva10.mp3",
     "kuva11.png": "kuva11.mp3"
-}
+};
 
 let selectedImages = [];
 let gameBoard = document.getElementById('game-board');
@@ -136,7 +136,6 @@ function adjustLayout() {
     resizeCards();
     adjustGameBoardSize();
     centerGameBoard();
-    positionFeedback();
 }
 
 function startGame(level) {
